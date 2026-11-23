@@ -68,7 +68,7 @@ flowchart LR
 5. **Put your PDFs** into the `./paper` folder.
 6. **Run** the script and ask a question:
    ```bash
-   python main.py
+   python chatbot.py
    ```
 
 > 💡 The first run downloads the `BAAI/bge-m3` model from Hugging Face, so it may take a few minutes.
@@ -78,7 +78,7 @@ flowchart LR
 ```text
 .
 ├── paper/              # your PDF files
-├── main.py             # RAG pipeline
+├── chatbot.py             # RAG pipeline
 ├── requirements.txt    # Python dependencies
 ├── .env                # API key (not committed)
 └── .gitignore
